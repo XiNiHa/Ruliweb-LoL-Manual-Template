@@ -25,10 +25,10 @@
 원본 기준 61번째 줄부터 68번째 줄까지가 1명의 챔피언을 나타냅니다. 원하는 수만큼 복사&붙여넣기하시고, 원본 기준 63번째 줄의 주소를 [챔피언 아이콘](http://leagueoflegends.wikia.com/wiki/Category:Champion_squares)에서 따온 주소로 바꾸시고(각종 아이콘 삽입 방법 참고), 이름을 바꿔 넣으신 후, 원본 기준 66번째 줄에 글을 적으시면 됩니다. 상대하기 쉬운 챔피언도 72번째 줄에서 79번째 줄까지의 부분으로 같은 방법으로 가능합니다.
 
 ### 챔피언별 상대법 넣기
-원본 기준 84~109번째 줄이 1명의 챔피언을 나타냅니다.
+원본 기준 84\~109번째 줄이 1명의 챔피언을 나타냅니다.
 먼저 원본 기준 87번째 줄의 주소를 [챔피언 아이콘](http://leagueoflegends.wikia.com/wiki/Category:Champion_squares)에서 선택한 주소로 바꾸고, 챔피언 이름과 별 수를 바꿉니다.
 92번과 93번의 주소를 [스펠 아이콘](http://leagueoflegends.wikia.com/wiki/Category:Summoner_spell_icons)에서 선택한 주소로 바꿉니다.
-97~102번의 주소를 [아이템 아이콘](http://leagueoflegends.wikia.com/wiki/Category:Item_icons)에서 선택한 주소로 바꿉니다.
+97\~102번의 주소를 [아이템 아이콘](http://leagueoflegends.wikia.com/wiki/Category:Item_icons)에서 선택한 주소로 바꿉니다.
 107번에 상대법을 적으시면 됩니다.
 
 ### 추가 공략 넣기
