@@ -46,7 +46,7 @@
 <div id="manual_runes">
   <h2>룬</h2>
   <div class="manual_runes-viewer">
-    여기에 룬 정보 생성기<a href="#">(추후 업데이트 예정)</a>으로 만든 룬 정보를 붙여넣으세요.
+    여기에 룬 정보 생성기<a href="https://anesin1109.github.io/rune-generator/">(링크)</a>으로 만든 룬 정보를 붙여넣으세요.
   </div>
   추가 설명은 여기 적으시면 됩니다.
 </div>
@@ -145,5 +145,93 @@
 
 .script-only {
   display: none;
+}
+
+/* for rune */
+
+.rune-columns {
+  display: flex;
+}
+
+.rune-column {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  background: #ebe9e9;
+}
+
+.expander {
+  flex-grow: 1;
+}
+
+.rune-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.rune-build {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+}
+
+.rune-item {
+  position: relative;
+  display: inline-block;
+}
+
+.rune-item img{
+  width: 65px;
+  height: 65px;
+  opacity: 0.3;
+  transition: opacity 0.2s;
+}
+
+.rune-row-keystone .rune-item img {
+  width: 100px;
+  height: 100px;
+}
+
+.rune-item-active img{
+  opacity: 1.0;
+}
+
+.rune-item .rune-tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 8px;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -60px;
+
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.rune-item .rune-tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.rune-item:hover .rune-tooltip {
+    visibility: visible;
+    opacity: 1;
 }
 </style>
